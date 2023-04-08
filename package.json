@@ -3,12 +3,14 @@
     "version": "0.1.0",
     "private": true,
     "jest": {
-        "verbose": true
+        "verbose": true,
+        "collectCoverage": true,
+        "coverageReporters": ["json", "html"]
     },
     "scripts": {
         "test": "jest",
-        "build": "build",
-        "notification": "send-email"
+        "build": "",
+        "notification": "nodemailer"
     },
     "dependencies": {
         "nodemailer": "^6.9.1",
