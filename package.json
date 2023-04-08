@@ -9,8 +9,7 @@
     },
     "scripts": {
         "test": "jest",
-        "build": "",
-        "notification": "send-email.js"
+        "build": "tsc"
     },
     "dependencies": {
         "nodemailer": "^6.9.1",
