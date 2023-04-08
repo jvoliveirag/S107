@@ -81,7 +81,7 @@ jobs:
         run: npm install
       
       - name: Send email notification
-        with:
-          name: test-report
-          path: scripts/send-email.js
-        run: npm run notification
+        env:
+          EMAIL: ${{ secrets.EMAIL }}
+        run: |
+          npm run send-email "Pipeline executado!"
