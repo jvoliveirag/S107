@@ -84,4 +84,4 @@ jobs:
         env:
           EMAIL: ${{ secrets.EMAIL }}
         run: |
-          npm run send-email "Pipeline executado!"
+          npm run send-email.js
