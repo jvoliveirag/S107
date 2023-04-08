@@ -10,7 +10,7 @@
     "scripts": {
         "test": "jest",
         "build": "",
-        "notification": "nodemailer"
+        "notification": "send-email.js"
     },
     "dependencies": {
         "nodemailer": "^6.9.1",

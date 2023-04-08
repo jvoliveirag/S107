@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer');
 
-const email = process.env.EMAIL;
+const email = 'jv.oliveirag@gmail.com';
 
 if (!email) {
   console.error('EMAIL environment variable not set');
