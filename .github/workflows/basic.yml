@@ -82,6 +82,6 @@ jobs:
       
       - name: Send email notification
         env:
-          EMAIL: ${{ secrets.EMAIL }}
+          EMAIL: jv.oliveirag@gmail.com
         run: |
-          npm run send-email "Pipeline executado!"
+          npm run send-email.js
