@@ -81,7 +81,6 @@ jobs:
         run: npm install
       
       - name: Send email notification
-      - uses: actions/checkout@v3
         env:
           EMAIL: jv.oliveirag@gmail.com
         run: |
