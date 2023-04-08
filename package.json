@@ -6,9 +6,12 @@
         "verbose": true
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "build": "build",
+        "notification": "send-email"
     },
     "dependencies": {
+        "nodemailer": "^6.9.1",
         "typescript": "5.0.2"
     },
     "devDependencies": {
