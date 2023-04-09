@@ -63,7 +63,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: package
-          path: dist/sum.js
+          path: dist/
 
   notification:
     runs-on: ubuntu-latest
