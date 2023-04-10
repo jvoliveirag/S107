@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "module": "system",
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "outFile": "../../built/local/tsc.js",
+      "sourceMap": true
+    },
+    "include": ["src/main/*.ts"],
+    "exclude": ["node_modules", "**/*.test.ts"]
+}

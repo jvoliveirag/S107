@@ -9,7 +9,7 @@
     },
     "scripts": {
         "test": "jest",
-        "build": ""
+        "build": "tsc"
     },
     "dependencies": {
         "nodemailer": "^6.9.1",
