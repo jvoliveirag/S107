@@ -59,6 +59,7 @@ jobs:
         run: npm run build
       
       - name: Upload package
+        run: ls
         if: always()
         uses: actions/upload-artifact@v3
         with:
